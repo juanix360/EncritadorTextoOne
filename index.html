@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="titulo">ENCRIPTADOR DE TEXTO </h1> 
+  </header>
+ 
+  <main class="Principal">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" class="lab">Solo letras minúsculas, sin caracteres especiales</label>
+        <textarea class="textinput" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+        <input class="btn" type="button" value="Encriptar texto" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar texto" id="btn-desencriptar">
+      </form>
+    </section>
+  
+ 
+    
+    <section class="msg box">
+      <label for="msg" class="lab">Mensaje Encriptado</label>
+      <textarea class="textinput" id="msg" readonly></textarea>
+      <input class="btn" type="button" value="Copiar" id="btn-copy">
+    </section>
+
+  </main>
+  
+  <footer>   
+    <p class="pie">Desarrollado por Juan Ortiz </p>
+       
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
